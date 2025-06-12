@@ -13,4 +13,3 @@ o.autoindent = true
 
 opt.wildmode = "list:full,full"
 opt.wildmenu = true
-opt.wildchar = ":"
