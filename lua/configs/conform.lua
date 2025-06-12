@@ -6,7 +6,7 @@ local options = {
     pug = { "prettier" },
     javascript = { "prettier" },
     typescript = { "prettier" },
-    python = { "ruff" },
+    python = { "autopep8" },
     cpp = { "clang-format" },
   },
   format_on_save = {

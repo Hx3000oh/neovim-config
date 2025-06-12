@@ -7,7 +7,7 @@
 
 require("nvchad.configs.lspconfig").defaults()
 
-local servers = { "html", "cssls", "ts_ls", "jsonls", "tailwindcss", "ruff", "clangd", "emmet_language_server" }
+local servers = { "html", "cssls", "ts_ls", "jsonls", "tailwindcss", "pyright", "clangd", "emmet_language_server" }
 
 for _, lsp in ipairs(servers) do
   require("lspconfig")[lsp].setup {}
